@@ -17,11 +17,6 @@ export default defineAppConfig({
 	// 用于在主页展示下游引用
 	fork: [
 		{
-			img: 'https://api-space.tnxg.top/avatar?s=qq',
-			link: 'https://tnxg.top/',
-			text: '天翔TNXG',
-		},
-		{
 			img: 'https://ykc.im/icon.png',
 			link: 'https://ykc.im/',
 			text: 'York Chou',
@@ -35,21 +30,6 @@ export default defineAppConfig({
 			img: 'https://www.mugzx.top/icon.png',
 			link: 'https://www.mugzx.top/',
 			text: 'Mugzx',
-		},
-		{
-			img: 'https://cn.cravatar.com/avatar/1F6C8947D35A8186A1647009BA8BC5F2?size=256',
-			link: 'https://www.kemiao.online/',
-			text: '克喵爱吃卤面',
-		},
-		{
-			img: 'https://q1.qlogo.cn/g?b=qq&nk=3310149631&s=2',
-			link: 'https://gr114.com/',
-			text: 'GreenRoc',
-		},
-		{
-			img: 'https://wsrv.nl/?url=github.com/scfcn.png%3fsize=92',
-			link: 'https://www.qxzhan.cn/',
-			text: '筱序二十',
 		},
 		{
 			img: 'https://file.furrys.im/img/logo.webp',

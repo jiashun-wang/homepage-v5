@@ -7,7 +7,7 @@ export default defineNuxtConfig({
 			link: [
 				{ rel: 'icon', href: homepageConfig.favicon },
 				// "InterVariable", "Inter", "InterDisplay"
-				{ rel: 'stylesheet', href: 'https://rsms.me/inter/inter.css', media: 'print', onload: 'this.media="all"' },
+				{ rel: 'stylesheet', href: 'https://rsms.me/inter/inter.css' },
 			],
 			meta: [
 				{ name: 'author', content: [homepageConfig.author.name, homepageConfig.author.email].filter(Boolean).join(', ') },
