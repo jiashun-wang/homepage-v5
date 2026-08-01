@@ -15,7 +15,7 @@ defineProps<{ label?: string }>()
 </section>
 </template>
 
-<style lang="scss" scoped>
+<style scoped>
 .z-field {
 	display: grid;
 	grid-template-columns: 120px 1fr;
@@ -26,7 +26,7 @@ defineProps<{ label?: string }>()
 		text-align: end;
 	}
 
-	@media (max-width: $breakpoint-mobile) {
+	@media (max-width: 768px) {
 		grid-template-columns: 1fr;
 
 		>.z-field-label {

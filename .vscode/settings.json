@@ -1,6 +1,6 @@
 {
   "[css]": {
-    "editor.defaultFormatter": "stylelint.vscode-stylelint"
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
   "[typescript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
@@ -12,22 +12,27 @@
     "editor.formatOnSave": false
   },
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "always",
-    "source.fixAll.stylelint": "always"
+    "source.fixAll.eslint": "always"
   },
   "editor.tabSize": 3,
   "errorLens.fontSize": ".8em",
   "errorLens.messageBackgroundMode": "message",
   "errorLens.messageMaxChars": 50,
   "errorLens.messageTemplate": "$severity $message",
-  "iconify.inplace": false,
-  "stylelint.validate": [
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
     "css",
-    "postcss",
-    "scss",
-    "vue"
+    "vue",
+    "svelte",
+    "json",
+    "yaml",
+    "markdown",
   ],
-  "typescript.tsdk": "node_modules/typescript/lib",
+  "iconify.inplace": false,
+  "js/ts.tsdk.path": "node_modules/typescript/lib",
   "vue.autoInsert.dotValue": true,
   "vue.format.template.initialIndent": false,
   "vue.inlayHints.destructuredProps": true,

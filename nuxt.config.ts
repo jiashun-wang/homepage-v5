@@ -32,8 +32,8 @@ export default defineNuxtConfig({
 	],
 
 	css: [
-		'@/assets/color.scss',
-		'@/assets/main.scss',
+		'@/assets/color.css',
+		'@/assets/main.css',
 	],
 
 	// @keep-sorted
@@ -53,16 +53,15 @@ export default defineNuxtConfig({
 		compatibilityVersion: 5,
 	},
 
+	postcss: {
+		plugins: {
+			'postcss-nested': {},
+		},
+	},
+
 	routeRules,
 
 	vite: {
-		css: {
-			preprocessorOptions: {
-				scss: {
-					additionalData: '@use "@/assets/_variable.scss" as *;',
-				},
-			},
-		},
 		server: {
 			allowedHosts: true,
 		},
@@ -82,6 +81,14 @@ export default defineNuxtConfig({
 		preference: 'system',
 		fallback: 'light',
 		classSuffix: '',
+	},
+
+	icon: {
+		clientBundle: {
+			scan: {
+				globInclude: ['**\/*.{vue,jsx,tsx,ts,md,mdc,mdx}'],
+			},
+		},
 	},
 
 	image: {

@@ -37,7 +37,7 @@ const projects = [
 </section>
 </template>
 
-<style lang="scss" scoped>
+<style scoped>
 section {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));

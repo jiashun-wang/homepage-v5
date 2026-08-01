@@ -11,7 +11,7 @@ const sidebarStore = useSidebarStore()
 </div>
 </template>
 
-<style lang="scss" scoped>
+<style scoped>
 #z-header {
 	display: flex;
 	align-items: center;
@@ -40,7 +40,7 @@ const sidebarStore = useSidebarStore()
 		background-color: var(--c-bg-soft);
 	}
 
-	@media (max-width: $breakpoint-mobile) {
+	@media (max-width: 768px) {
 		display: block;
 	}
 }

@@ -19,7 +19,7 @@ defineProps<FeedProps>()
 </ZRawLink>
 </template>
 
-<style lang="scss" scoped>
+<style scoped>
 .article-card {
 	padding: 8px;
 	border-radius: 8px;
@@ -29,7 +29,7 @@ defineProps<FeedProps>()
 		background-color: var(--c-bg-soft);
 	}
 
-	>* {
+	> * {
 		margin: 8px;
 	}
 }

@@ -18,7 +18,7 @@ const colorMode = useColorMode()
 </div>
 </template>
 
-<style lang="scss" scoped>
+<style scoped>
 .theme-toggle {
 	display: flex;
 	justify-content: center;

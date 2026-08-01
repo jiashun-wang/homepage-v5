@@ -26,7 +26,7 @@ defineProps<{
 </div>
 </template>
 
-<style lang="scss" scoped>
+<style scoped>
 .error-message {
 	display: flex;
 	overflow: auto;

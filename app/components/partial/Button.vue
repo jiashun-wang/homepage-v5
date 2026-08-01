@@ -23,7 +23,7 @@ defineProps<ButtonProps>()
 </component>
 </template>
 
-<style lang="scss" scoped>
+<style scoped>
 .button {
 	display: inline-block;
 	padding: 0.4em 0.6em;

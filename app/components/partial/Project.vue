@@ -56,7 +56,7 @@ const { data } = useFetch<{ repo: Repo }>(() => `https://ungh.cc/repos/${props.g
 </ZRawLink>
 </template>
 
-<style lang="scss" scoped>
+<style scoped>
 .project {
 	display: flex;
 	flex-direction: column;

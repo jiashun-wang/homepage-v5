@@ -40,7 +40,7 @@ const articles = computed(() => data.value.slice(0, 11))
 </div>
 </template>
 
-<style lang="scss" scoped>
+<style scoped>
 .article-list {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));

@@ -19,8 +19,8 @@ const tip = computed(() => ({
 </ZRawLink>
 </template>
 
-<style lang="scss" scoped>
-// 消除空格并对齐到基线，同时保持图标垂直居中
+<style scoped>
+/* 消除空格并对齐到基线，同时保持图标垂直居中 */
 .z-link {
 	margin: 0 -0.1em;
 	padding: 0 0.1em;

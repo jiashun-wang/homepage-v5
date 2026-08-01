@@ -31,7 +31,7 @@ useEventListener(emblaRef, 'wheel', (e) => {
 </div>
 </template>
 
-<style lang="scss" scoped>
+<style scoped>
 .embla {
 	--fadeout-width: 1.5rem;
 

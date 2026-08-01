@@ -63,13 +63,13 @@ const appConfig = useAppConfig()
 </div>
 </template>
 
-<style lang="scss" scoped>
+<style scoped>
 .avatar {
 	position: fixed;
 	opacity: 0.2;
 	right: 20vw;
-	margin-right: -0.382em; // (1 - √5)/2
-	mask-image: radial-gradient(#FFF 43.7%, transparent 70.7%); // (√5 - 1) / 2 x, x = √2 / 2
+	margin-right: -0.382em; /* (1 - √5)/2 */
+	mask-image: radial-gradient(#FFF 43.7%, transparent 70.7%); /* (√5 - 1) / 2 x, x = √2 / 2 */
 	font-size: min(100vw, 61.8vh);
 	z-index: -1;
 }

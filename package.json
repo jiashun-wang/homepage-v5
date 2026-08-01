@@ -1,9 +1,9 @@
 {
   "name": "zhilu-site",
   "type": "module",
-  "version": "4.6.0",
+  "version": "4.7.0",
   "private": true,
-  "packageManager": "pnpm@10.33.0",
+  "packageManager": "pnpm@11.18.0",
   "homepage": "https://github.com/L33Z22L11/homepage-v5",
   "scripts": {
     "postinstall": "nuxt prepare",
@@ -15,6 +15,7 @@
     "lint:fix": "eslint --fix ."
   },
   "dependencies": {
+    "@iconify-json/ri": "catalog:ui",
     "@nuxt/icon": "catalog:ui",
     "@nuxt/image": "catalog:ui",
     "@nuxtjs/color-mode": "catalog:ui",
@@ -35,10 +36,9 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "catalog:quality",
-    "@zinkawaii/stylelint-config": "catalog:quality",
+    "@zinkawaii/eslint-config-css": "catalog:quality",
     "eslint": "catalog:quality",
-    "sass-embedded": "catalog:framework",
-    "stylelint": "catalog:quality",
+    "postcss-nested": "catalog:framework",
     "typescript": "catalog:framework"
   }
 }

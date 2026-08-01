@@ -36,7 +36,7 @@ const sidebarStore = useSidebarStore()
 </Transition>
 </template>
 
-<style lang="scss" scoped>
+<style scoped>
 #z-sidebar {
 	display: flex;
 	flex-direction: column;
@@ -50,7 +50,7 @@ const sidebarStore = useSidebarStore()
 		cursor: pointer;
 	}
 
-	@media (max-width: $breakpoint-mobile) {
+	@media (max-width: 768px) {
 		position: fixed;
 		left: 0;
 		width: 320px;
@@ -83,7 +83,7 @@ const sidebarStore = useSidebarStore()
 		opacity: 0;
 	}
 
-	@media (min-width: $breakpoint-mobile) {
+	@media (min-width: 768px) {
 		display: none;
 	}
 }

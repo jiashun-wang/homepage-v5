@@ -16,7 +16,7 @@ defineProps<{
 </h2>
 </template>
 
-<style lang="scss" scoped>
+<style scoped>
 .z-title {
 	display: flex;
 	flex-wrap: wrap;

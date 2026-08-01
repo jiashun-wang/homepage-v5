@@ -18,7 +18,7 @@ useSeoMeta({
 </template>
 
 <!-- eslint-disable-next-line vue/enforce-style-attribute -->
-<style lang="scss">
+<style>
 #z-root {
 	display: flex;
 	justify-content: center;

@@ -19,7 +19,7 @@ defineProps<{
 </div>
 </template>
 
-<style lang="scss" scoped>
+<style scoped>
 .timeline {
 	position: relative;
 	width: fit-content;
@@ -54,7 +54,7 @@ defineProps<{
 	}
 }
 
-@container (min-width: $breakpoint-mobile) {
+@container (min-width: 768px) {
 	.timeline-item {
 		grid-template-areas: "date content";
 		grid-template-columns: 1fr 1fr;

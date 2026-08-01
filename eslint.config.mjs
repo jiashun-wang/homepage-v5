@@ -1,4 +1,5 @@
 import antfu from '@antfu/eslint-config'
+import css from '@zinkawaii/eslint-config-css'
 
 export default antfu({
 	stylistic: {
@@ -10,7 +11,6 @@ export default antfu({
 		'jsonc/indent': ['error', 2],
 		'vue/block-lang': ['warn', {
 			script: { lang: ['ts', 'tsx'] },
-			style: { lang: ['scss'] },
 		}],
 		'vue/enforce-style-attribute': ['warn', { allow: ['scoped'] }],
 		'vue/html-indent': ['error', 'tab', { baseIndent: 0 }],
@@ -25,4 +25,12 @@ export default antfu({
 	rules: {
 		'style/eol-last': ['warn', 'never'],
 	},
-})
+}).append(css, {
+	files: ['**/*.css'],
+	rules: {
+		'css-stylistic/indentation': ['error', 'tab'],
+	},
+}).setDefaultIgnores(prevs => [
+	...prevs,
+	'**/*.css',
+])
