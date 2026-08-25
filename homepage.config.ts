@@ -3,22 +3,22 @@
 import type { NitroConfig } from 'nitropack'
 
 const author = {
-	name: '纸鹿本鹿',
-	avatar: 'https://avatars-githubusercontent-webp.webp.se/L33Z22L11',
-	email: 'hi@zhilu.cyou',
-	homepage: 'https://www.zhilu.site/',
+	name: 'Jiashun Wang',
+	avatar: 'https://cdn.chum-bucket.site/image/20250419-190816-651.webp',
+	email: 'wjs@linux.do',
+	homepage: 'https://jia-shun.wang/',
 }
 
 const homepageConfig = {
-	title: '纸鹿 (@L33Z22L11)',
-	subtitle: '纸鹿至麓不知路，支炉制露不止漉',
-	description: '纸鹿（也称作纸鹿本鹿、Zhilu、L33Z22L11）是一名开源爱好者，这是纸鹿的个人主页。他有一个博客「纸鹿摸鱼处」，记录了他在生活和技术学习中的点滴经历，充满启发与思考。他的个人主页和博客界面简洁美观，内容丰富实用，人气互动活跃，涵盖了编程、生活、学习等多个领域，为读者提供了卓越的阅读体验。',
+	title: 'Jiashun Wang\'s Homepage',
+	subtitle: 'test',
+	description: '个人主页',
 	author,
 	language: 'zh-CN',
 	timeZone: 'Asia/Shanghai',
 	favicon: '/icon.png',
-	url: 'https://www.zhilu.site/',
-	blogAtom: 'https://blog.zhilu.site/atom.xml',
+	url: 'https://jia-shun.wang/',
+	blogAtom: 'https://blog.chum-bucket.site/rss.xml',
 }
 
 // https://nitro.build/config#routerules

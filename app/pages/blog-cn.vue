@@ -1,5 +1,5 @@
 <script setup lang="ts">
-useHead({ title: '文章' })
+useHead({ title: '博客文章' })
 definePageMeta({ headerText: '最近更新' })
 
 const { data, error, status } = useLazyFetch('/api/feed/blog')
@@ -10,7 +10,7 @@ const articles = computed(() => data.value.slice(0, 11))
 <template>
 <ZTitle icon="👀">
 	<span class="badge-text">来自博客
-		<ZRawLink to="https://blog.zhilu.site/"><mark>纸鹿摸鱼处</mark></ZRawLink>
+		<ZRawLink to="https://blog.chum-bucket.site/"><mark>海之霸博客</mark></ZRawLink>
 		的文章
 	</span>
 </ZTitle>

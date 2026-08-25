@@ -16,49 +16,59 @@ const appConfig = useAppConfig()
 			<span style="font-size: 3rem;">👋</span>
 		</template>
 		<h1 style="font-size: 3rem;">
-			你好，<br>我是<mark>{{ appConfig.author.name }}</mark>
+			Hello，<br>I'm <mark>{{ appConfig.author.name }}</mark>
 		</h1>
 		<p class="desc">
 			{{ appConfig.subtitle }}
 		</p>
 		<div>
 			<ZButton
-				icon="ri:file-list-3-line"
-				to="https://blog.zhilu.site/"
-				text="博客"
+				icon="ri:lightbulb-ai-line"
+				to="https://jia-shun.wang/"
+				text="Academic Homepage"
 				primary
+			/>
+			<!-- <ZButton
+				icon="ri:settings-line"
+				to="https://blog.chum-bucket.site/"
+				text="Tech Homepage"
+				primary
+			/> -->
+			<ZButton
+				icon="ri:file-list-3-line"
+				to="https://blog.chum-bucket.site/"
+				text="Blog-CN"
+				
+			/>
+			<ZButton
+				icon="ri:file-list-3-line"
+				to="https://blog.chum-bucket.site/"
+				text="Blog-EN"
+				
 			/>
 			<ZButton
 				icon="ri:github-line"
-				to="https://github.com/L33Z22L11"
+				to="https://github.com/jiashun-wang"
 				text="GitHub"
 			/>
 		</div>
 	</ZField>
 
 	<ZField label="介绍">
-		<p>一名即将毕业的西安计算机本科生，目前在北京从事前端开发工作。</p>
-		<p>正在维护自己的开源博客网站，你可以在博客或QQ群和我交流。</p>
+		<p>海洋科学硕士</p>
+		<p>热衷于推进云计算与基础理论科学的融合，你可以通过邮件和我交流。</p>
 	</ZField>
 
-	<ZField label="近期活动">
+	<!-- <ZField label="近期活动">
 		<p>2024年7月完善<ZLink to="https://wiki.cooo.site/">西邮Wiki</ZLink>，8月使用Nuxt Content重构了<ZLink to="https://blog.zhilu.site/">个人博客</ZLink>。</p>
-		<p>2025年3月重构了<ZLink to="https://www.xiyoulinux.com/">西邮Linux兴趣小组</ZLink>博客后端，5月开始前端实习。</p>
-	</ZField>
+	</ZField> -->
 
-	<ZField label="关于主页">
+	<ZField label="参考">
 		<p>
-			感谢
-			<ZBadge link="https://github.com/KazariEX" text="KazariEX" />
-			<ZBadge link="https://github.com/isYangs" text="isYangs" />
-			等众多朋友为个人主页提供帮助。
-		</p>
-		<p>
-			主页开源在
+			此主页参考了开源项目
 			<ZLink to="https://github.com/L33Z22L11/homepage-v5" icon="ri:github-line">L33Z22L11/homepage-v5</ZLink>
-			上，欢迎使用、参考样式：<br>
+			，在此感谢<br>
 		</p>
-		<p><ZBadge v-for="item in appConfig.fork" :key="item.link" v-bind="item" /></p>
 	</ZField>
 </div>
 </template>
@@ -78,5 +88,13 @@ const appConfig = useAppConfig()
 	margin: 1rem 0;
 	font-size: 1.5rem;
 	color: var(--c-text-2);
+}
+
+/* ↓↓↓ 新增：让按钮换行时有间距，不贴着 ↓↓↓ */
+div {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5em;
+	align-items: center;
 }
 </style>
