@@ -36,14 +36,14 @@ const appConfig = useAppConfig()
 			/> -->
 			<ZButton
 				icon="ri:file-list-3-line"
-				to="https://blog.chum-bucket.site/"
+				to="https://blog.jia-shun.wang"
 				text="Blog-CN"
 				
 			/>
-			<ZButton
+			<!-- <ZButton
 				icon="ri:file-list-3-line"
 				to="https://blog.chum-bucket.site/"
-				text="Blog-EN"
+				text="Blog-EN" -->
 				
 			/>
 			<ZButton
