@@ -25,7 +25,7 @@ const appConfig = useAppConfig()
 			<ZButton
 				icon="ri:lightbulb-ai-line"
 				to="https://jia-shun.wang/"
-				text="Academic Homepage"
+				text="Academic homepage"
 				primary
 			/>
 			<!-- <ZButton
@@ -36,13 +36,13 @@ const appConfig = useAppConfig()
 			/> -->
 			<ZButton
 				icon="ri:file-list-3-line"
-				to="https://blog.jia-shun.wang"
+				to="https://blog.jia-shun.wang/zh"
 				text="Blog-CN"
 				
 			/>
 			<!-- <ZButton
 				icon="ri:file-list-3-line"
-				to="https://blog.chum-bucket.site/"
+				to="https://blog.jia-shun.wang/en"
 				text="Blog-EN" -->
 				
 			/>
@@ -56,7 +56,7 @@ const appConfig = useAppConfig()
 
 	<ZField label="介绍">
 		<p>海洋科学硕士</p>
-		<p>热衷于推进云计算与基础理论科学的融合，你可以通过邮件和我交流。</p>
+		<p>热衷于推进云计算与基础理论科学的融合。</p>
 	</ZField>
 
 	<!-- <ZField label="近期活动">

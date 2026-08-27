@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useHead({ title: 'Tech Projects' })
-definePageMeta({ headerText: '参与的技术项目' })
+definePageMeta({ headerText: '学术项目' })
 
 const projects = [
 	{

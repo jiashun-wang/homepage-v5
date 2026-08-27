@@ -18,7 +18,7 @@ const homepageConfig = {
 	timeZone: 'Asia/Shanghai',
 	favicon: '/icon.png',
 	url: 'https://jia-shun.wang/',
-	blogAtom: 'https://blog.chum-bucket.site/rss.xml',
+	blogAtom: 'https://blog.jia-shun.wang/rss.xml',
 }
 
 // https://nitro.build/config#routerules
