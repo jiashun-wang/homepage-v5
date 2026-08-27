@@ -43,9 +43,9 @@ const appConfig = useAppConfig()
 			<!-- <ZButton
 				icon="ri:file-list-3-line"
 				to="https://blog.jia-shun.wang/en"
-				text="Blog-EN" -->
+				text="Blog-EN" 
+			/>-->
 				
-			/>
 			<ZButton
 				icon="ri:github-line"
 				to="https://github.com/jiashun-wang"
